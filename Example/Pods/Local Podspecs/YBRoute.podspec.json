@@ -1,0 +1,22 @@
+{
+  "name": "YBRoute",
+  "version": "0.1.0",
+  "summary": "A short description of YBRoute.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AndyYB/YBRoute",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AndyYB": "970964132@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/AndyYB/YBRoute.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YBRoute/Classes/**/*"
+}

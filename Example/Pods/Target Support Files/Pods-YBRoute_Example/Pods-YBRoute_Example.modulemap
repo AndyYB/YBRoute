@@ -1,0 +1,6 @@
+framework module Pods_YBRoute_Example {
+  umbrella header "Pods-YBRoute_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
