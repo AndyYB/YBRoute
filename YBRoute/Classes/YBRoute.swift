@@ -12,11 +12,6 @@ public class YBRoute: NSObject {
     public static let `default` = YBRoute()
     private(set) public var urlMap = [String : RouterProtocol.Type]()
     
-    public func registerClass(aClass:RouterProtocol.Type, route:String) {
-        let key = route.urlString
-        urlMap[key] = aClass
-    }
-    
     open func map(_ urlPattern: RouterURLConvertible, _ routerProtocol: RouterProtocol.Type) {
         let key = urlPattern.urlString
         self.urlMap[key] = routerProtocol
@@ -56,6 +51,40 @@ public class YBRoute: NSObject {
         animated: Bool = true) -> UIViewController? {
         guard let navigationController = from ?? UIViewController.top?.navigationController else{ return nil }
         navigationController.pushViewController(viewController, animated: animated)
+
+        return viewController
+    }
+    
+    @discardableResult
+    open func present(
+        _ url: RouterURLConvertible,
+        userInfo: [AnyHashable: Any]? = nil,
+        isWrapNavi: Bool = false,
+        from: UIViewController? = nil,
+        animated: Bool = true,
+        completion: (() -> Void)? = nil
+        ) -> UIViewController? {
+                
+        guard let viewController = self.viewController(for: url, userInfo: ["":""]) else { return nil }
+        
+        return self.present(viewController, isWrapNavi: isWrapNavi, from: from, animated: animated, completion: completion)
+    }
+
+    @discardableResult
+    open func present(
+        _ viewController: UIViewController,
+        isWrapNavi: Bool = false,
+        from: UIViewController? = nil,
+        animated: Bool = true,
+        completion: (() -> Void)? = nil ) -> UIViewController? {
+
+        guard let fromViewController = from ?? UIViewController.top else { return nil }
+        if isWrapNavi {
+            let navigationController = UINavigationController(rootViewController: viewController)
+            fromViewController.present(navigationController, animated: animated, completion: completion)
+        } else {
+            fromViewController.present(viewController, animated: animated, completion: completion)
+        }
 
         return viewController
     }
@@ -104,15 +133,12 @@ extension UIViewController {
     }
 }
 
-//eg.
+//eg.01
 //let mapDic : [String: String] = [
 //        "account.login.forget_password"            :"https://m.igeidao.com/login/forget_password",
 //        "account.login.fulfill_user_info"          :"https://m.igeidao.com/login/fulfill_user_info",
 //        "account.login.succeed"                    :"https://m.igeidao.com/home/index",
-//        "account.login.scan"                       :"https://m.igeidao.com/scan/login?session_id={session_id}",
-//        "account.user_info.modify_avatar"          :"https://m.igeidao.com/image_picker/index",
-//        "account.user_info.show_certificate_info"  :"https://m.igeidao.com/account/certificate_info",
-//        "account.user_info.modify_binding_phone"   :"https://m.igeidao.com/security/modify_binding_phone",
-//        "account.user_info.modify_telephone"       :"https://m.igeidao.com/account/modify_telphone",
-//        "account.user_info.modify_email"           :"https://m.igeidao.com/account/modify_email",
 //]
+//eg.02
+//        YBRoute.map("home", homeViewController.self)
+

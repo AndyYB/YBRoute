@@ -13,7 +13,7 @@ public struct URLMathcerComponents {
 }
 
 public protocol RouterProtocol {
-    
+    var className : String? { get }
     init?(_ url: RouterURLConvertible, values: [String : Any], userInfo: [AnyHashable : Any]?)
 }
 
@@ -82,3 +82,18 @@ extension URL: RouterURLConvertible {
     }
 }
 
+
+extension NSObject {
+    // MARK:返回className
+    var ClassName:String{
+        get{
+            let name =  type(of: self).description()
+            if(name.contains(".")){
+                return name.components(separatedBy: ".")[1];
+            }else{
+                return name;
+            }
+            
+        }
+    }
+}
