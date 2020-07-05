@@ -64,10 +64,14 @@ public class YBRoute: NSObject {
 extension UIViewController {
     /// Returns the current application's top view controller.
     open class var top : UIViewController? {
-        let keyWindow = UIApplication.shared.keyWindow
+        let windows = UIApplication.shared.windows
         var rootViewController : UIViewController?
-        if let windowRootViewController = keyWindow?.rootViewController {
-            rootViewController = windowRootViewController
+
+        for window in windows {
+            if let windowRootViewController = window.rootViewController {
+                rootViewController = windowRootViewController
+                break
+            }
         }
         return self.top(of: rootViewController)
     }
