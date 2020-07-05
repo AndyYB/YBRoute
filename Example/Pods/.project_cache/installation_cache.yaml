@@ -26,14 +26,16 @@ CACHE_KEYS:
       YBRoute:
         :debug: 45263c2558fefdcf8c62dde8ae4e962f
         :release: 45263c2558fefdcf8c62dde8ae4e962f
-    CHECKSUM: 0dc804f4172e976dab5d2820107431983d2cf613
+    CHECKSUM: f50b99927be7103a21f8969d0024b8a497de45af
     FILES:
       - "../../LICENSE"
       - "../../README.md"
+      - "../../YBRoute/Classes/CodeBucket.swift"
+      - "../../YBRoute/Classes/RouterProtocol.swift"
       - "../../YBRoute/Classes/YBRoute.swift"
     PROJECT_NAME: YBRoute
     SPECS:
-      - YBRoute (0.1.0)
+      - YBRoute (0.1.1)
 OBJECT_VERSION: 46
 PLUGINS:
   cocoapods-stats:

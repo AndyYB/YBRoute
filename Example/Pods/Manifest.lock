@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YBRoute (0.1.0)
+  - YBRoute (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YBRoute: 0dc804f4172e976dab5d2820107431983d2cf613
+  YBRoute: f50b99927be7103a21f8969d0024b8a497de45af
 
 PODFILE CHECKSUM: 7feb319c4b7b37b2c8c6a40134ece3b15576cb2f
 

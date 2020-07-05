@@ -7,38 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09670B35800AA64B0ED6EC4FDE0BA4F3 /* YBRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A31C442720E0BB1625AD8C4CD38BF03 /* YBRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		216E5E0724B1B0A8005766DC /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E5E0624B1B0A8005766DC /* RouterProtocol.swift */; };
-		216E5E0924B1B66E005766DC /* CodeBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E5E0824B1B66E005766DC /* CodeBucket.swift */; };
-		31D2849723C281B9D9F21CE2CF5D180F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB97C4ED1E9FBAF2F5BF255AE938F48 /* Foundation.framework */; };
-		7C418AD404E28265BE44D30F0E67B438 /* YBRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF10BEA5FFFE2A0D20213F544BF8A7 /* YBRoute.swift */; };
-		C1BB5A3F288204BEC506D688918E9EF1 /* YBRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7350D22D272D0C20E51A63029DA57 /* YBRoute-dummy.m */; };
+		0766F59BDC8DE30CC801700E593D0FE4 /* YBRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EB2E678C063F3E896A7BB7DAF5C9BB /* YBRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D8318518BB51D07EF1312CF8AA16A1 /* YBRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0807785E484F8389017CF1EFCA28A36 /* YBRoute.swift */; };
+		2329D1DA4B0FA14FD10E6C81195E2B96 /* CodeBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F3DE530DD9D3AF1509E3F668C4CA5E /* CodeBucket.swift */; };
+		76C39D60384D9398A41ED49BEA81D542 /* YBRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DCD864911D55998AD6AB4E03516F05 /* YBRoute-dummy.m */; };
+		C5813E1CAA87F05AB68144B7DDD52D05 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88F946F2C18AC8DBBADB8BD684C706 /* RouterProtocol.swift */; };
+		F9909BADB430573CB397D23A8B629110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB97C4ED1E9FBAF2F5BF255AE938F48 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CD890D35AACB0CF7080515331CF8EDE /* YBRoute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YBRoute-Info.plist"; sourceTree = "<group>"; };
 		0EB97C4ED1E9FBAF2F5BF255AE938F48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		119B50E30EB36E63990EC69920B123F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		216E5E0624B1B0A8005766DC /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
-		216E5E0824B1B66E005766DC /* CodeBucket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBucket.swift; sourceTree = "<group>"; };
-		3A31C442720E0BB1625AD8C4CD38BF03 /* YBRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBRoute-umbrella.h"; sourceTree = "<group>"; };
-		47E0A8DA3CBEBC2F533948536EE368C7 /* YBRoute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YBRoute-Info.plist"; sourceTree = "<group>"; };
-		5BBB89E2168F3A674592CCE2014C6BA1 /* YBRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBRoute.debug.xcconfig; sourceTree = "<group>"; };
-		8BCB3F6C418AA0B9B87CE5A5FAAF4A69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		AFFA01A01B6675E20318E9E662766110 /* YBRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YBRoute.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		BD2335470E80FB99F8CBD61F62856E09 /* YBRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YBRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5A7350D22D272D0C20E51A63029DA57 /* YBRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBRoute-dummy.m"; sourceTree = "<group>"; };
-		D4FFF3A6E8513739FB1528D02A7FB817 /* YBRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBRoute-prefix.pch"; sourceTree = "<group>"; };
-		E0DF10BEA5FFFE2A0D20213F544BF8A7 /* YBRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YBRoute.swift; path = YBRoute/Classes/YBRoute.swift; sourceTree = "<group>"; };
-		ECE2FEADDD6C439AB3B953A291853494 /* YBRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YBRoute.modulemap; sourceTree = "<group>"; };
-		F29DCDC13A8717165602FE5D12243B5D /* YBRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBRoute.release.xcconfig; sourceTree = "<group>"; };
+		20025010F017CE6F549798CA48B51B69 /* YBRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBRoute.release.xcconfig; sourceTree = "<group>"; };
+		23CDF64D3344221FDAB72BBBC0B7EA29 /* YBRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YBRoute.modulemap; sourceTree = "<group>"; };
+		51AC590D36B0E573B256BF9658F38ADD /* YBRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBRoute.debug.xcconfig; sourceTree = "<group>"; };
+		61EB2E678C063F3E896A7BB7DAF5C9BB /* YBRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBRoute-umbrella.h"; sourceTree = "<group>"; };
+		8E88F946F2C18AC8DBBADB8BD684C706 /* RouterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterProtocol.swift; path = YBRoute/Classes/RouterProtocol.swift; sourceTree = "<group>"; };
+		99DCD864911D55998AD6AB4E03516F05 /* YBRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBRoute-dummy.m"; sourceTree = "<group>"; };
+		B0807785E484F8389017CF1EFCA28A36 /* YBRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YBRoute.swift; path = YBRoute/Classes/YBRoute.swift; sourceTree = "<group>"; };
+		BD2335470E80FB99F8CBD61F62856E09 /* YBRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YBRoute.framework; path = YBRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F3DE530DD9D3AF1509E3F668C4CA5E /* CodeBucket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeBucket.swift; path = YBRoute/Classes/CodeBucket.swift; sourceTree = "<group>"; };
+		C3377A6EDBFE903E02FA5614FD566A84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DE29CAACB79B2C5E491174148FB91268 /* YBRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YBRoute.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE842D71FA516C20E04CE0455C12F2A9 /* YBRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBRoute-prefix.pch"; sourceTree = "<group>"; };
+		FB00F73EC28ECFD5F67E1FE9F12F3E78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B2C78B7F9EA88D2A0F36D00690D0248 /* Frameworks */ = {
+		CC46FEA7AFDFCA31C92EEA4577D541A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D2849723C281B9D9F21CE2CF5D180F /* Foundation.framework in Frameworks */,
+				F9909BADB430573CB397D23A8B629110 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,14 +61,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		54B7D33F6E6E95A1F1DC8648AC0E29DA /* YBRoute */ = {
+		4971325B06ABEA195B2754A43FE12BEE /* YBRoute */ = {
 			isa = PBXGroup;
 			children = (
-				216E5E0624B1B0A8005766DC /* RouterProtocol.swift */,
-				E0DF10BEA5FFFE2A0D20213F544BF8A7 /* YBRoute.swift */,
-				216E5E0824B1B66E005766DC /* CodeBucket.swift */,
-				B313B873FAF53E43DE9D139CD3CED999 /* Pod */,
-				CE300544DD3294E64194AD2F3EE3DCE1 /* Support Files */,
+				C2F3DE530DD9D3AF1509E3F668C4CA5E /* CodeBucket.swift */,
+				8E88F946F2C18AC8DBBADB8BD684C706 /* RouterProtocol.swift */,
+				B0807785E484F8389017CF1EFCA28A36 /* YBRoute.swift */,
+				C5B80F75C6EFC62D7BC760E4DE06646B /* Pod */,
+				7FE93B8434D9902160BE4586E59E396B /* Support Files */,
 			);
 			name = YBRoute;
 			path = ../..;
@@ -82,29 +82,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B313B873FAF53E43DE9D139CD3CED999 /* Pod */ = {
+		7FE93B8434D9902160BE4586E59E396B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8BCB3F6C418AA0B9B87CE5A5FAAF4A69 /* LICENSE */,
-				119B50E30EB36E63990EC69920B123F9 /* README.md */,
-				AFFA01A01B6675E20318E9E662766110 /* YBRoute.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		CE300544DD3294E64194AD2F3EE3DCE1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ECE2FEADDD6C439AB3B953A291853494 /* YBRoute.modulemap */,
-				C5A7350D22D272D0C20E51A63029DA57 /* YBRoute-dummy.m */,
-				47E0A8DA3CBEBC2F533948536EE368C7 /* YBRoute-Info.plist */,
-				D4FFF3A6E8513739FB1528D02A7FB817 /* YBRoute-prefix.pch */,
-				3A31C442720E0BB1625AD8C4CD38BF03 /* YBRoute-umbrella.h */,
-				5BBB89E2168F3A674592CCE2014C6BA1 /* YBRoute.debug.xcconfig */,
-				F29DCDC13A8717165602FE5D12243B5D /* YBRoute.release.xcconfig */,
+				23CDF64D3344221FDAB72BBBC0B7EA29 /* YBRoute.modulemap */,
+				99DCD864911D55998AD6AB4E03516F05 /* YBRoute-dummy.m */,
+				0CD890D35AACB0CF7080515331CF8EDE /* YBRoute-Info.plist */,
+				DE842D71FA516C20E04CE0455C12F2A9 /* YBRoute-prefix.pch */,
+				61EB2E678C063F3E896A7BB7DAF5C9BB /* YBRoute-umbrella.h */,
+				51AC590D36B0E573B256BF9658F38ADD /* YBRoute.debug.xcconfig */,
+				20025010F017CE6F549798CA48B51B69 /* YBRoute.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YBRoute";
+			sourceTree = "<group>";
+		};
+		C5B80F75C6EFC62D7BC760E4DE06646B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C3377A6EDBFE903E02FA5614FD566A84 /* LICENSE */,
+				FB00F73EC28ECFD5F67E1FE9F12F3E78 /* README.md */,
+				DE29CAACB79B2C5E491174148FB91268 /* YBRoute.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D8B28BBBCD0750C885ED7532D685DA84 = {
@@ -112,18 +112,18 @@
 			children = (
 				028D7363375882C8564933ADD4BBB2CD /* Frameworks */,
 				6F280030B50DE633A8286BC6C40271EE /* Products */,
-				54B7D33F6E6E95A1F1DC8648AC0E29DA /* YBRoute */,
+				4971325B06ABEA195B2754A43FE12BEE /* YBRoute */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29B5DC316B9E665442486BF3C7740FBF /* Headers */ = {
+		394C4A29CFA0C43F466D15776945491A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09670B35800AA64B0ED6EC4FDE0BA4F3 /* YBRoute-umbrella.h in Headers */,
+				0766F59BDC8DE30CC801700E593D0FE4 /* YBRoute-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,12 +132,12 @@
 /* Begin PBXNativeTarget section */
 		F93DA6E11C97A5EBC0CF9B1154947A20 /* YBRoute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D60F8C00C20BA17B7D3EA5CB1CB4318A /* Build configuration list for PBXNativeTarget "YBRoute" */;
+			buildConfigurationList = FACB7BABA5741923173B98A71D17E875 /* Build configuration list for PBXNativeTarget "YBRoute" */;
 			buildPhases = (
-				29B5DC316B9E665442486BF3C7740FBF /* Headers */,
-				3FC46A566977B3C5CA7229CA47589EF4 /* Sources */,
-				8B2C78B7F9EA88D2A0F36D00690D0248 /* Frameworks */,
-				0D583DEE87025A30F6CAD72E0AF0415C /* Resources */,
+				394C4A29CFA0C43F466D15776945491A /* Headers */,
+				814B43A67B4629CB5EBEE2831B6A5FC8 /* Sources */,
+				CC46FEA7AFDFCA31C92EEA4577D541A7 /* Frameworks */,
+				5501DC5A3DA82088EC83A767EC82FA88 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -176,7 +176,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0D583DEE87025A30F6CAD72E0AF0415C /* Resources */ = {
+		5501DC5A3DA82088EC83A767EC82FA88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,14 +186,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FC46A566977B3C5CA7229CA47589EF4 /* Sources */ = {
+		814B43A67B4629CB5EBEE2831B6A5FC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				216E5E0924B1B66E005766DC /* CodeBucket.swift in Sources */,
-				216E5E0724B1B0A8005766DC /* RouterProtocol.swift in Sources */,
-				C1BB5A3F288204BEC506D688918E9EF1 /* YBRoute-dummy.m in Sources */,
-				7C418AD404E28265BE44D30F0E67B438 /* YBRoute.swift in Sources */,
+				2329D1DA4B0FA14FD10E6C81195E2B96 /* CodeBucket.swift in Sources */,
+				C5813E1CAA87F05AB68144B7DDD52D05 /* RouterProtocol.swift in Sources */,
+				76C39D60384D9398A41ED49BEA81D542 /* YBRoute-dummy.m in Sources */,
+				08D8318518BB51D07EF1312CF8AA16A1 /* YBRoute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,40 +264,9 @@
 			};
 			name = Debug;
 		};
-		2BBB921B1E6754600122FDACB07B63CB /* Debug */ = {
+		491D50FCE6125272E39867D5323B9D7D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BBB89E2168F3A674592CCE2014C6BA1 /* YBRoute.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YBRoute/YBRoute-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YBRoute/YBRoute-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YBRoute/YBRoute.modulemap";
-				PRODUCT_MODULE_NAME = YBRoute;
-				PRODUCT_NAME = YBRoute;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3A8F59075CE743910451CC79E84E34ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F29DCDC13A8717165602FE5D12243B5D /* YBRoute.release.xcconfig */;
+			baseConfigurationReference = 20025010F017CE6F549798CA48B51B69 /* YBRoute.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -380,11 +349,43 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		B96C10DD13ED74E1E40C7DC3262413CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AC590D36B0E573B256BF9658F38ADD /* YBRoute.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YBRoute/YBRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YBRoute/YBRoute-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YBRoute/YBRoute.modulemap";
+				PRODUCT_MODULE_NAME = YBRoute;
+				PRODUCT_NAME = YBRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -398,11 +399,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D60F8C00C20BA17B7D3EA5CB1CB4318A /* Build configuration list for PBXNativeTarget "YBRoute" */ = {
+		FACB7BABA5741923173B98A71D17E875 /* Build configuration list for PBXNativeTarget "YBRoute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BBB921B1E6754600122FDACB07B63CB /* Debug */,
-				3A8F59075CE743910451CC79E84E34ED /* Release */,
+				B96C10DD13ED74E1E40C7DC3262413CF /* Debug */,
+				491D50FCE6125272E39867D5323B9D7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
