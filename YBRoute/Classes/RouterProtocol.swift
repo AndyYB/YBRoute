@@ -13,7 +13,6 @@ public struct URLMathcerComponents {
 }
 
 public protocol RouterProtocol {
-    var className : String? { get }
     init?(_ url: RouterURLConvertible, values: [String : Any], userInfo: [AnyHashable : Any]?)
 }
 
