@@ -1,4 +1,10 @@
+platform :ios, '10.0'
 use_frameworks!
+inhibit_all_warnings!   
+
+install! 'cocoapods',
+:generate_multiple_pod_projects => true,
+:incremental_installation => true
 
 target 'YBRoute_Example' do
   pod 'YBRoute', :path => '../'

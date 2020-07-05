@@ -1,0 +1,40 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  FBSnapshotTestCase:
+    BUILD_SETTINGS_CHECKSUM:
+      FBSnapshotTestCase:
+        :debug: 90d4ff6979068e876f73400fc7acf66e
+        :release: 90d4ff6979068e876f73400fc7acf66e
+    CHECKSUM: 094f9f314decbabe373b87cc339bea235a63e07a
+    PROJECT_NAME: FBSnapshotTestCase
+    SPECS:
+      - FBSnapshotTestCase (2.1.4)
+      - FBSnapshotTestCase/Core (2.1.4)
+      - FBSnapshotTestCase/SwiftSupport (2.1.4)
+  Pods-YBRoute_Example:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: a61d502e007c6410ddb07eeb3c7216fa
+      Release: a61d502e007c6410ddb07eeb3c7216fa
+  Pods-YBRoute_Tests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: cc6449b892120c9ed4287541e818a9aa
+      Release: cc6449b892120c9ed4287541e818a9aa
+  YBRoute:
+    BUILD_SETTINGS_CHECKSUM:
+      YBRoute:
+        :debug: 45263c2558fefdcf8c62dde8ae4e962f
+        :release: 45263c2558fefdcf8c62dde8ae4e962f
+    CHECKSUM: 0dc804f4172e976dab5d2820107431983d2cf613
+    FILES:
+      - "../../LICENSE"
+      - "../../README.md"
+      - "../../YBRoute/Classes/YBRoute.swift"
+    PROJECT_NAME: YBRoute
+    SPECS:
+      - YBRoute (0.1.0)
+OBJECT_VERSION: 46
+PLUGINS:
+  cocoapods-stats:
+    {}
