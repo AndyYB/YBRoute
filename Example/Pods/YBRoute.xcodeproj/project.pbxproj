@@ -24,7 +24,7 @@
 		47E0A8DA3CBEBC2F533948536EE368C7 /* YBRoute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YBRoute-Info.plist"; sourceTree = "<group>"; };
 		5BBB89E2168F3A674592CCE2014C6BA1 /* YBRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBRoute.debug.xcconfig; sourceTree = "<group>"; };
 		8BCB3F6C418AA0B9B87CE5A5FAAF4A69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		AFFA01A01B6675E20318E9E662766110 /* YBRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YBRoute.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFFA01A01B6675E20318E9E662766110 /* YBRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YBRoute.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		BD2335470E80FB99F8CBD61F62856E09 /* YBRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YBRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A7350D22D272D0C20E51A63029DA57 /* YBRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBRoute-dummy.m"; sourceTree = "<group>"; };
 		D4FFF3A6E8513739FB1528D02A7FB817 /* YBRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBRoute-prefix.pch"; sourceTree = "<group>"; };
