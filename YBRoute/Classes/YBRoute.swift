@@ -7,7 +7,7 @@
 
 import UIKit
 
-class YBRoute: NSObject {
+public class YBRoute: NSObject {
     
     public static let `default` = YBRoute()
     private(set) public var urlMap = [String : RouterProtocol.Type]()
